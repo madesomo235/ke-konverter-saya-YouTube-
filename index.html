@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumerta Converter</title>
+    <style>
+        /* Reset CSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* Latar Belakang Penuh Layar */
+        body {
+            background: linear-gradient(to right, #1e3c72, #2a5298);
+            color: white;
+            text-align: center;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            overflow-y: auto;
+            padding-top: 60px; /* Supaya konten tidak tertutup header */
+        }
+
+        /* Header dengan latar belakang biru tua */
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            padding: 8px 20px;
+            background: #2c3e50; /* Warna biru tua */
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        /* Gambar lebih dekat dengan teks */
+        .logo {
+            width: 40px;  /* Ukuran gambar lebih kecil */
+            height: 40px;
+            border-radius: 10px;
+            margin-right: 5px; /* Jarak gambar dan teks lebih kecil */
+        }
+
+        /* Judul dengan desain lebih kecil */
+        .title {
+            font-size: 24px;  /* Ukuran lebih kecil */
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Efek bayangan */
+        }
+
+        /* Container Utama */
+        .container {
+            width: 100%;
+            min-height: 75vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Iframe bisa di-scroll */
+        iframe {
+            width: 100%;
+            height: 80vh;
+            border: none;
+        }
+
+        /* Tombol */
+        .btn {
+            padding: 12px 25px;
+            background: #e74c3c;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #c0392b;
+        }
+
+        /* Wrapper Tombol di Bawah */
+        .button-wrapper {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            padding: 15px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header dengan latar belakang biru tua dan teks lebih kecil -->
+    <div class="header">
+        <img src="https://i.postimg.cc/knHGmgDm/1739760741483713167299309841695.jpg" class="logo" alt="Logo">
+        <div class="title">Sumerta Converter</div>
+    </div>
+
+    <!-- Container untuk iframe -->
+    <div class="container">
+        <iframe src="https://conv.mp3youtube.cc/enrrA"></iframe>
+    </div>
+
+    <!-- Wrapper untuk tombol bawah -->
+    <div class="button-wrapper">
+        <a href="https://madesomo235.github.io/sumerta-converter/" class="btn">Kembali ke Halaman Utama</a>
+    </div>
+
+</body>
+</html>
